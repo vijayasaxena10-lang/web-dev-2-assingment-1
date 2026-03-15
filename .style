@@ -1,0 +1,106 @@
+.dlt{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg,#7aa9c7,#7aa9c7);
+    padding:30px;
+}
+
+.container{
+    display:flex;
+    gap:25px;
+}
+
+.eventForm{
+    width:320px;
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.form label{
+    font-weight:600;
+    display:block;
+    margin-top:15px;
+}
+
+.form input, .form select, .form textarea{
+    width:100%;
+    margin-top:6px;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+.form textarea{
+    height:90px;
+    resize:none;
+}
+
+.form input[type="submit"]{
+    margin-top:20px;
+    background:linear-gradient(90deg,#5c6edb,#8a4cc7);
+    color:white;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+}
+
+.events{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.events button{
+    padding:10px 18px;
+    margin-right:10px;
+    border:none;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+    background:linear-gradient(90deg,#5c6edb,#8a4cc7);
+}
+
+.cards{
+    margin-top:25px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:260px;
+    padding:18px;
+    border-radius:16px;
+    background:linear-gradient(135deg,#e8eef5,#cfd8e6);
+    box-shadow:0 4px 10px rgba(0,0,0,0.12);
+    position:relative;
+}
+
+.domContainer{
+    margin-top:30px;
+}
